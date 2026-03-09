@@ -1,0 +1,20 @@
+MSFT:
+Learned kernel: 1.06**2 * RBF(length_scale=0.912) + 0.402**2 * ExpSineSquared(length_scale=1.06, periodicity=400) + WhiteKernel(noise_level=1e-06)
+Test RMSE: 1.2014, MAE: 0.9834, R2: -0.4968
+
+NTDOF:
+Learned kernel: 1.15**2 * RBF(length_scale=1.02) + 0.00316**2 * ExpSineSquared(length_scale=0.0258, periodicity=248) + WhiteKernel(noise_level=0.00076)
+Test RMSE: 2.0037, MAE: 1.7777, R2: -3.1636
+
+NVDA:
+Learned kernel: 1.11**2 * RBF(length_scale=0.892) + 0.00814**2 * ExpSineSquared(length_scale=549, periodicity=64.7) + WhiteKernel(noise_level=1e-06)
+Test RMSE: 1.0366, MAE: 0.9134, R2: -0.1144
+
+SEGA:
+Learned kernel: 1.51**2 * RBF(length_scale=1) + 0.319**2 * ExpSineSquared(length_scale=1.85, periodicity=400) + WhiteKernel(noise_level=1e-06)
+Test RMSE: 1.9203, MAE: 1.5735, R2: -2.8240
+
+SONY:
+Learned kernel: 1.02**2 * RBF(length_scale=0.788) + 24.4**2 * ExpSineSquared(length_scale=5.07, periodicity=357) + WhiteKernel(noise_level=1.57e-06)
+Test RMSE: 3.7875, MAE: 3.5293, R2: -13.8768
+
